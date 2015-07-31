@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MahaBote Calculator With JQuery</title>
+			<link rel="stylesheet" href="jquery-ui.css">
+			<script src="jquery.js"></script>
+			<script src="jquery-ui.js"></script>
+			<script src="mhb.js"></script>
+		</head>
+	<body>
+		<p>This Will Calculate Your Mahabote Sign</p>
+		<p>Choose Your Birth Date: <input type="text" id="datepicker"></p>
+		<p>Enter Your Birth Day:
+			<select id="day">
+				<option value="2">Monday</option>
+				<option value="3">Tuesday</option>
+				<option value="4">Wednesday</option>
+				<option value="5">Thursday</option>
+				<option value="6">Friday</option>
+				<option value="0">Saturday</option>
+				<option value="1">Sunday</option>
+			</select>  
+		</p>
+		<p id="result"> </p>
+		<button onClick="show()">Calculate</button>
+	</body>
+</html>
